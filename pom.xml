@@ -11,5 +11,6 @@
     <module>cx-service</module>
     <module>cx-service-impl</module>
     <module>cx-web</module>
+    <module>cx-common</module>
   </modules>
 </project>
