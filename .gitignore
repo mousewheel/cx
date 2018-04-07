@@ -1,0 +1,13 @@
+target/
+.settings/
+.svn/
+/.idea
+*.class
+*.impl
+*.iml
+*.classpath
+Servers/
+
+*.jar
+*.war
+
