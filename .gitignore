@@ -1,6 +1,7 @@
 target/
 .settings/
 .svn/
+.project
 /.idea
 *.class
 *.impl
