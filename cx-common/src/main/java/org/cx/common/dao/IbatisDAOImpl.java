@@ -10,7 +10,4 @@ public class IbatisDAOImpl implements IDAO<T> {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	
-
 }

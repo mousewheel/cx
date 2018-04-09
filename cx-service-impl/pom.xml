@@ -25,6 +25,11 @@
 		</dependency>
 		<dependency>
 			<groupId>cx</groupId>
+			<artifactId>cx-dao</artifactId>
+			<version>${cx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cx</groupId>
 			<artifactId>cx-service</artifactId>
 			<version>${cx.version}</version>
 		</dependency>
