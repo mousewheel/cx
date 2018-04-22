@@ -18,6 +18,10 @@ public class CustomerServiceImpl implements ICustomerService{
 	
 	@Resource(name="Customer")
 	private	ICustomerDAO<Customer> customerDAO; 
+	
+	public void setCustomerDAO(ICustomerDAO<Customer> customerDAO){
+		this.customerDAO = customerDAO;
+	}
 
 	@Override
 	public void sayHello(CustomerDto customerDto) {
@@ -42,6 +46,4 @@ public class CustomerServiceImpl implements ICustomerService{
 		
 		return result;
 	}
-	
-	
 }

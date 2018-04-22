@@ -1,6 +1,12 @@
 package org.cx.dao.model;
 
-public class Customer {
+import org.cx.common.dao.IModel;
+
+public class Customer implements IModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String Name;
 	private Integer Age;
 	private String Address;
