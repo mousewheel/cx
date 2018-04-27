@@ -13,5 +13,5 @@
     default-autowire="byName">
 
     <context:component-scan base-package="org.cx" />
-    <import resource="classpath:/dubbo-consumer.xml" />
+    <import resource="classpath*:/dubbo-consumer.xml" />
 </beans>  
