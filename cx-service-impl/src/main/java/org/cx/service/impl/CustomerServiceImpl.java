@@ -19,21 +19,6 @@ public class CustomerServiceImpl implements ICustomerService{
 	@Resource(name="Customer")
 	private	ICustomerDAO<Customer> customerDAO; 
 	
-	public void setCustomerDAO(ICustomerDAO<Customer> customerDAO){
-		this.customerDAO = customerDAO;
-	}
-
-	@Override
-	public void sayHello(CustomerDto customerDto) {
-		// TODO Auto-generated method stub
-		System.out.println(customerDto.getName() +"says Hello!");
-	}
-
-	@Override
-	public String selfIntroduce(CustomerDto customerDto) {
-		return String.format("My name is %s, %s yers old", customerDto.getName(), customerDto.getAge());
-	}
-
 	@Override
 	public List<CustomerDto> queryByMap(Map<String, Object> map) {
 		List<Customer> customers = customerDAO.queryByMap(map, "");
