@@ -33,5 +33,7 @@
 		<module>cx-service-impl</module>
 		<module>cx-web</module>
 		<module>cx-common</module>
+		<module>cx-gen</module>
+
 	</modules>
 </project>
