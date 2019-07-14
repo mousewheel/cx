@@ -4,31 +4,31 @@ import java.io.Serializable;
 
 public class CustomerDto implements Serializable {
 	
-	private String Name;
-	private Integer Age;
-	private String Address;
+	private String name;
+	private Integer age;
+	private String address;
 	
 	public String getName() {
-		return Name;
+		return name;
 	}
 	
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 	
 	public Integer getAge() {
-		return Age;
+		return age;
 	}
 	
 	public void setAge(Integer age) {
-		Age = age;
+		this.age = age;
 	}
 	
 	public String getAddress() {
-		return Address;
+		return address;
 	}
 	
 	public void setAddress(String address) {
-		Address = address;
+		this.address = address;
 	}
 }

@@ -13,6 +13,7 @@ public class App {
 
 
         try {
+            System.out.println("Hello");
             System.in.read();
         } catch (IOException e) {
             e.printStackTrace();

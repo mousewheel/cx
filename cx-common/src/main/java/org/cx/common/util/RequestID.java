@@ -17,7 +17,7 @@ public class RequestID {
 	}
 
 	public static void set(String rid) {
-		String uuid = "";
+		String uuid;
 		if (null == rid) {
 			uuid = genId();
 		} else {
